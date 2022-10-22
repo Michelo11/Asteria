@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="out.css">
+    <link rel="stylesheet" href="custom.css">
+    <script src="https://kit.fontawesome.com/82eb69e53c.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Asteria</title>
+</head>
+
+<body class="font-roboto h-full flex flex-col">
+    <div id="particles-js" class="-z-10"></div>
+
+    <!-- nav -->
+    <div class="min-h-[56px] bg-black flex p-5 items-center justify-center md:justify-between h-[80px]">
+        <a href="index.html"><img src="assets/logo.svg" alt="" width="250"></a>
+        <div class="text-white gap-10 items-center text-xs lg:text-sm hidden md:flex">
+            <p class="text-[#FC0D3C] text-[17px]"><a href="#">Forums</a></p>
+            <p class="text-[17px]"><a href="#">Store</a></p>
+            <p class="text-[17px]"><a href="#">Hosting</a></p>
+            <p class="text-[17px] whitespace-nowrap"><a href="about.html">About Us</a></p>
+            <div
+                class="text-[17px] text-white bg-[url('assets/rect.svg')] h-[56px] flex justify-center items-center w-[202px]">
+                <p><a href="#">Discord</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div
+        class="border-b text-white border-b-[#e02a4e] bg-[#202020] flex items-center justify-center gap-2 md:hidden text-xs">
+        <div class="bg-[#e02a4e] h-full flex items-center justify-center p-5">
+            <p><a href="#">Forums</a></p>
+        </div>
+        <div class="h-[25px] flex items-center justify-center p-3">
+            <p><a href="#">Store</a></p>
+        </div>
+        <div class="h-[25px] flex items-center justify-center p-3">
+            <p><a href="#">Hosting</a></p>
+        </div>
+        <div class="h-[25px] flex items-center justify-center p-3 whitespace-nowrap">
+            <p><a href="about.html">About Us</a></p>
+        </div>
+        <div class="h-[25px] flex items-center justify-center p-3">
+            <p><a href="#">Discord</a></p>
+        </div>
+    </div>
+    <!-- nav end -->
+
+    <div class="flex-1 justify-center items-center text-white p-5 w-100% text-center flex flex-col" data-aos="fade-up" data-aos-duration="1000">
+        <div class="w-1/2">
+            <div>
+                <p class="text-[40px]">About Us</p>
+
+                <p class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime repudiandae ratione
+                    repellendus? Quod commodi sequi obcaecati sit! Optio, voluptas animi debitis ipsam unde nihil quis,
+                    minima et eligendi facere fugiat.</p>
+            </div>
+
+            <div>
+
+                <p class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime repudiandae ratione
+                    repellendus? Quod commodi sequi obcaecati sit! Optio, voluptas animi debitis ipsam unde nihil quis,
+                    minima et eligendi facere fugiat.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="flex h-[3rem] bg-black bottom items-center p-8 justify-between">
+        <p class="text-[#636363]">Copyright 2022 @Asteria</p>
+        <div class="flex gap-5">
+            <img class="h-[23.51px]" src="assets/twitter.svg" alt="">
+            <img class="h-[23.51px]" src="assets/discord.svg" alt="">
+        </div>
+    </div>
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        particlesJS("particles-js", { "particles": { "number": { "value": 160, "density": { "enable": true, "value_area": 800 } }, "color": { "value": "#ffffff" }, "shape": { "type": "circle", "stroke": { "width": 0, "color": "#000000" }, "polygon": { "nb_sides": 5 }, "image": { "src": "img/github.svg", "width": 100, "height": 100 } }, "opacity": { "value": 1, "random": true, "anim": { "enable": true, "speed": 1, "opacity_min": 0, "sync": false } }, "size": { "value": 3, "random": true, "anim": { "enable": false, "speed": 4, "size_min": 0.3, "sync": false } }, "line_linked": { "enable": false, "distance": 150, "color": "#ffffff", "opacity": 0.4, "width": 1 }, "move": { "enable": true, "speed": 1, "direction": "none", "random": true, "straight": false, "out_mode": "out", "bounce": false, "attract": { "enable": false, "rotateX": 600, "rotateY": 600 } } }, "interactivity": { "detect_on": "canvas", "events": { "onhover": { "enable": true, "mode": "bubble" }, "onclick": { "enable": true, "mode": "repulse" }, "resize": true }, "modes": { "grab": { "distance": 400, "line_linked": { "opacity": 1 } }, "bubble": { "distance": 250, "size": 0, "duration": 2, "opacity": 0, "speed": 3 }, "repulse": { "distance": 400, "duration": 0.4 }, "push": { "particles_nb": 4 }, "remove": { "particles_nb": 2 } } }, "retina_detect": true });
+
+    </script>
+</body>
+
+</html>
